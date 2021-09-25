@@ -1,0 +1,119 @@
+/* .main-div mat-card {
+  padding: 0;
+}
+.login-form {
+  padding: 20px;
+}
+.login-heading {
+  justify-content: center;
+  align-items: center;
+} */
+.wrapper {
+  position: relative;
+}
+.dualColorContainer {
+  display: flex;
+  max-width: 100%;
+  height: 100vh;
+}
+.loginContainer {
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  width: 30%;
+  height: 50vh;
+  z-index: 1;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.welcomeTxt {
+  color: rgb(8, 10, 12);
+  font-weight: normal;
+  margin-top: 8%;
+  margin-left: 8%;
+}
+.loginContainer > input {
+  height: 40px;
+  width: 80%;
+  outline: none;
+  border: 1px solid #e2dfdf;
+  border-radius: 5px;
+}
+.username {
+  margin-left: 8%;
+  margin-top: 8%;
+  padding: 8px 16px;
+}
+.pwd {
+  margin-left: 8%;
+  margin-top: 8%;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+.forgot-passText {
+  margin-left: 55%;
+  color: #0275d8;
+}
+.login {
+  margin-top: 4%;
+  margin-left: 35%;
+  padding: 8px 32px;
+  background-color: #0275d8;
+  font-size: 16px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.login:hover {
+  background-color: #fff;
+  color: #0365bb;
+  border: 1px solid #0365bb;
+}
+.white-container {
+  background-color: #f5f5f5;
+  width: 25%;
+  height: 100vh;
+}
+.logoText {
+  margin-left: 36%;
+  margin-top: 8%;
+  color: rgb(49, 104, 224);
+}
+.blue-container {
+  width: 75%;
+  height: 100vh;
+  background: linear-gradient(to top left, rgb(28, 50, 247), rgb(53, 194, 250));
+  position: relative;
+}
+.imgs {
+  z-index: 20;
+  position: absolute;
+}
+.firstclip {
+  margin-top: 8%;
+  margin-left: 20%;
+  opacity: 0.7;
+}
+.searchclip {
+  margin-top: 22%;
+  margin-left: 45%;
+  width: auto;
+  height: 35%;
+  opacity: 0.3;
+}
+.searchclip > img {
+  width: 100%;
+  height: 100%;
+}
+.secondclip {
+  margin-top: 55%;
+  margin-left: 70%;
+  opacity: 0.8;
+}
+.bottomRight-text {
+  color: aliceblue;
+  margin-top: 60%;
+  margin-left: 65%;
+  z-index: 25;
+}

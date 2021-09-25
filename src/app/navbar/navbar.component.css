@@ -1,0 +1,10 @@
+.wrapper {
+  background-color: rgb(224, 220, 220);
+  display: flex;
+}
+.search-container {
+  display: flex;
+  width: 15%;
+  height: auto;
+  background-color: rgb(86, 231, 135);
+}

@@ -1,0 +1,45 @@
+.wrapper {
+  background-color: rgb(8, 72, 167);
+  width: 8%;
+  height: 100vh;
+}
+.logoText {
+  color: aliceblue;
+  padding-top: 8px;
+  text-align: center;
+}
+.wrapper > ul {
+  margin-top: 50%;
+}
+.navlink-items > li {
+  list-style: none;
+  padding: 4px 0;
+}
+.navlink-items > li > a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 12px;
+}
+.nav-iconContainer {
+  padding: 4px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  height: auto;
+}
+.nav-iconContainer > img {
+  width: 100%;
+  height: 100%;
+}
+.nav-link {
+  padding: 2px 0;
+  font-size: 14px;
+}
+.logout {
+  margin-top: 200px;
+}
